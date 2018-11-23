@@ -28,7 +28,7 @@ protocol QRScanDisplayable {
     var inlineHeight:CGFloat{get set}
     //遮罩填充颜色
     var maskColor:UIColor{set get}
-    weak var reader:QrScanTool?{set get}
+    var reader:QrScanTool?{set get}
     //开始扫描
     func startScan()
     //结束扫描
