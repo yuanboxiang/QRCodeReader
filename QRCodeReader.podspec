@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "QRCodeReader"
+  s.name         = "NativeQRCodeReader"
   s.version      = "0.0.1"
   s.summary      = "原生二维码扫描"
 
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    QRCodeReader是一个原生的二维码扫描工具
+                    NativeQRCodeReader是一个原生的二维码扫描工具
 		   DESC
   s.homepage     = "https://github.com/yuanboxiang/QRCodeReader"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
